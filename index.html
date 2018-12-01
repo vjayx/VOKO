@@ -8,19 +8,27 @@
 <body>
 <nav class="Navbar">
   <div class="Brand">KO<span class="VO">VO</span></div>
-  <ul class="topNav">
+  <ul class="topNav" id="topNav-toggle">
     <li><a class="navLink" href="#">About me</a></li>
-    <li><a class="navLink"  class="navLink" href="#">References</a></li>
+    <li><a class="navLink" href="#">References</a></li>
     <li><a class="navLink" href="#">Contact</a></li>
     <li><a class="navLink" href="#">blog</a></li>
-
-
-
+    <!--<li class="dropDownLink"><a onclick="toggleDropdown()" href="">&#119558;</a></li>-->
+    <li class="dropDownLink" onclick="toggleDropdown()"><a class="burger" href="javascript:void(0);">&#119558;</a></li>
   </ul>
 
 
 
 
 </nav>
+
+<script type="text/javascript" src="main.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+
+
 </body>
 </html>

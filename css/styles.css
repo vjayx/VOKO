@@ -38,12 +38,52 @@ html, body {
 
 }
 
-.topNav .navLink {
+.topNav .navLink  {
     text-decoration: none;
     padding-left: 20px;
+    font-size : 20px;
 
 }
 .VO {
     color: #F05757;
     font-size: 25px;
 }
+.dropDownLink {
+    display: none;
+    color: #0d0600;
+    font-size: 25px;
+    text-decoration: none;
+
+    .dropDownLink a {
+        text-decoration: none;
+    }
+
+}
+
+@media ( max-width : 768px) {
+    ul.topNav li a.navLink {
+        display: none;
+
+    }
+
+    ul.topNav li.dropDownLink {
+        display: block;
+        position : absolute;
+        top: 15px;
+        right: 20px;
+
+    }
+    ul.topNav .responsive li a.navLink {
+        display: block;
+        list-style: none;
+        text-decoration: none;
+
+    }
+}
+.burger {
+    text-decoration: none;
+    color: #000;
+}
+
+
+    
